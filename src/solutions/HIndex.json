@@ -1,0 +1,36 @@
+{
+  "name" : "HIndex",
+  "signature" : {
+    "name" : "cheat",
+    "result" : "int",
+    "arguments" : [ "int[]", "int", "int" ],
+    "argumentNames" : [ "realCitations", "budget", "citationPrice" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "25 3 5 3 8 0", "447", "1000" ],
+    "result" : "3",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "25 3 5 3 8 0", "1447", "1000" ],
+    "result" : "4",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "0 0 0 2 0 0 1 0 0 0 0 0 0 0", "140000", "10000" ],
+    "result" : "4",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "0 0 0", "999999999", "1000000000" ],
+    "result" : "0",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2021.04.28",
+  "contestName" : "2021 TopCoder Open Algo",
+  "testClasses" : [ ],
+  "fqn" : "solutions.HIndex",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}
