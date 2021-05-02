@@ -19,6 +19,16 @@
     "output" : "1000000007\n",
     "index" : 1,
     "active" : true
+  }, {
+    "input" : "1 10 10 3",
+    "output" : "2",
+    "index" : 2,
+    "active" : true
+  }, {
+    "input" : "1 10 10 2",
+    "output" : "4",
+    "index" : 3,
+    "active" : true
   } ],
   "location" : "src/solutions",
   "vmArgs" : "-Xmx1024M",

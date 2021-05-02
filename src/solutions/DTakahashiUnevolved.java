@@ -10,19 +10,16 @@ public class DTakahashiUnevolved {
         long a = in.nextLong();
         long b = in.nextLong();
 
-        int ans = 0;
+        long ans = 0;
 
-        while (x < y){
 
-            if (x * a < x + b){
-                x *= a;
-            }else {
-                x += b;
-            }
+        while (x <= (x + b) / a && x * a < y) {
             ans++;
+            x *= a;
         }
 
-        out.println(ans - 1);
+        ans += (y - x - 1) / b;
+        out.println(ans);
 
     }
 }
