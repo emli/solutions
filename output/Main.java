@@ -16,56 +16,25 @@ public class Main {
         OutputStream outputStream = System.out;
         Scanner in = new Scanner(inputStream);
         PrintWriter out = new PrintWriter(outputStream);
-        CNeSosednyayaMatritsa solver = new CNeSosednyayaMatritsa();
+        AKorobkuTyanut solver = new AKorobkuTyanut();
         int testCount = Integer.parseInt(in.next());
         for (int i = 1; i <= testCount; i++)
             solver.solve(i, in, out);
         out.close();
     }
 
-    static class CNeSosednyayaMatritsa {
+    static class AKorobkuTyanut {
         public void solve(int testNumber, Scanner in, PrintWriter out) {
-            int n = in.nextInt();
+            int x1 = in.nextInt();
+            int y1 = in.nextInt();
+            int x2 = in.nextInt();
+            int y2 = in.nextInt();
 
-            if (n == 2) {
-                out.println(-1);
-                return;
+            if (x1 == x2 || y1 == y2) {
+                out.println(Math.abs(x1 - x2) + Math.abs(y1 - y2));
+            } else {
+                out.println(Math.abs(x1 - x2) + Math.abs(y1 - y2) + 2);
             }
-            int[][] a = new int[n][n];
-
-            int pos = 0;
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n; j++) {
-                    if (a[i][j] != 0) {
-                        continue;
-                    }
-                    a[i][j] = ++pos;
-
-                    if (pos >= n * n) {
-                        continue;
-                    }
-                    int x = i;
-                    int y = j;
-                    for (int k = 0; k < 3; k++) {
-                        if (pos > n * n) {
-                            continue;
-                        }
-
-                        int tmp = n - x - 1;
-                        a[y][n - x - 1] = ++pos;
-                        x = y;
-                        y = tmp;
-                    }
-                }
-            }
-
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n; j++) {
-                    out.print(a[i][j] + " ");
-                }
-                out.println();
-            }
-
         }
 
     }
