@@ -1,0 +1,44 @@
+{
+  "name" : "D - Cooking",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "5\n8 3 7 2 5\n",
+    "output" : "13\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "2\n1000 1\n",
+    "output" : "1000\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "9\n3 14 15 9 26 5 35 89 79\n",
+    "output" : "138\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/solutions",
+  "vmArgs" : "-Xmx1024M",
+  "mainClass" : "Main",
+  "taskClass" : "solutions.DCooking",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.06.06",
+  "contestName" : "AtCoder - AtCoder Beginner Contest 204",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
