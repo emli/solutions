@@ -1,4 +1,4 @@
-30 src/solutions/D - Cooking.json
+37 src/solutions/IOIGuaranteedPlace.json
 2
-0
+1
 2
