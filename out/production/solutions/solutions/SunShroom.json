@@ -1,0 +1,41 @@
+{
+  "name" : "SunShroom",
+  "signature" : {
+    "name" : "produceSun",
+    "result" : "long",
+    "arguments" : [ "long[]", "long" ],
+    "argumentNames" : [ "plantingTime", "queryTime" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "10", "33" ],
+    "result" : "0",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "34" ],
+    "result" : "15",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "47", "200" ],
+    "result" : "110",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "47 47 47 47 47 47", "200" ],
+    "result" : "660",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "10 100 20 200 30 300 40 400", "123456" ],
+    "result" : "1027230",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2021.10.08",
+  "contestName" : "Single Round Match 815",
+  "testClasses" : [ ],
+  "fqn" : "solutions.SunShroom",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

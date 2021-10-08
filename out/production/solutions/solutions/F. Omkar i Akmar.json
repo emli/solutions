@@ -1,0 +1,44 @@
+{
+  "name" : "F. Омкар и Акмар",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "2\n",
+    "output" : "4\n",
+    "index" : 0,
+    "active" : true
+  }, {
+    "input" : "69420\n",
+    "output" : "629909355\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "42069\n",
+    "output" : "675837193\n",
+    "index" : 2,
+    "active" : true
+  } ],
+  "location" : "src/solutions",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "solutions.FOmkarIAkmar",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.06.10",
+  "contestName" : "Codeforces - Codeforces Round #724 (Div. 2)",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}

@@ -1,0 +1,50 @@
+{
+  "name" : "DevuAndRabbitNumbering",
+  "signature" : {
+    "name" : "canRenumber",
+    "result" : "String",
+    "arguments" : [ "int[]" ],
+    "argumentNames" : [ "rabbitIds" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "1 2 3" ],
+    "result" : "can",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "1 2 2" ],
+    "result" : "can",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "2 4 2 2 1 2" ],
+    "result" : "cannot",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "1 2 4 2 6 6 7" ],
+    "result" : "can",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "960 578 296 414 352 610 872 556 113 818 194 804 141 859 761 887 3 952 234 667 196 693 783" ],
+    "result" : "can",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "97 64 22 17 75 97 85 68 35 82 64 10 71 11 64 64 94 52 28 40 48 46 5 82 39 65 2 93 43 50 44 90 69 72 94 6 62 17 12 12 84 33 38" ],
+    "result" : "cannot",
+    "index" : 5,
+    "active" : true
+  }, {
+    "arguments" : [ "1 2 2 2 4 4" ],
+    "index" : 6,
+    "active" : true
+  } ],
+  "date" : "2021.10.08",
+  "contestName" : "Single Round Match 815",
+  "testClasses" : [ ],
+  "fqn" : "solutions.DevuAndRabbitNumbering",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}
