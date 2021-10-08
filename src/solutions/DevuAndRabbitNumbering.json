@@ -36,13 +36,9 @@
     "result" : "cannot",
     "index" : 5,
     "active" : true
-  }, {
-    "arguments" : [ "1 2 2 2 4 4" ],
-    "index" : 6,
-    "active" : true
   } ],
   "date" : "2021.10.08",
-  "contestName" : "Single Round Match 815",
+  "contestName" : "TopCoder SRM #815",
   "testClasses" : [ ],
   "fqn" : "solutions.DevuAndRabbitNumbering",
   "failOnOverflow" : false,
