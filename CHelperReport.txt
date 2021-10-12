@@ -1,2 +1,2 @@
-41 src/solutions/DevuAndRabbitNumbering.json
+29 src/solutions/Nice Pairs.json
 0
