@@ -1,3 +1,2 @@
-42 src/solutions/C. Spasti bolshe myshek.json
-1
+31 src/solutions/Lucky Number.json
 0
