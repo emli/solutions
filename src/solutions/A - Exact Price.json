@@ -1,6 +1,6 @@
 {
-  "name" : "Task",
-  "testType" : "MULTI_NUMBER",
+  "name" : "A - Exact Price",
+  "testType" : "SINGLE",
   "input" : {
     "type" : "STANDARD",
     "fileName" : "input.txt"
@@ -10,20 +10,30 @@
     "fileName" : "output.txt"
   },
   "tests" : [ {
-    "input" : "2\n21082000\n21082000\n",
-    "output" : "29111192\n29111192\n",
+    "input" : "500\n",
+    "output" : "Yes\n",
     "index" : 0,
+    "active" : true
+  }, {
+    "input" : "40\n",
+    "output" : "No\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "0\n",
+    "output" : "No\n",
+    "index" : 2,
     "active" : true
   } ],
   "location" : "src/solutions",
-  "vmArgs" : "-Xmx256M",
+  "vmArgs" : "-Xmx1024M",
   "mainClass" : "Main",
-  "taskClass" : "solutions.Task",
+  "taskClass" : "solutions.AExactPrice",
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
   "testClasses" : [ ],
-  "date" : "2021.10.16",
-  "contestName" : "HackerEarth - October Circuits '21",
+  "date" : "2021.10.17",
+  "contestName" : "AtCoder - AtCoder Beginner Contest 223",
   "truncate" : true,
   "inputClass" : "java.util.Scanner",
   "outputClass" : "java.io.PrintWriter",
