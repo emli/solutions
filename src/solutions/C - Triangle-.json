@@ -1,5 +1,5 @@
 {
-  "name" : "Task",
+  "name" : "C - Triangle?",
   "testType" : "SINGLE",
   "input" : {
     "type" : "STANDARD",
@@ -10,20 +10,25 @@
     "fileName" : "output.txt"
   },
   "tests" : [ {
-    "input" : "1\n21082000\n",
-    "output" : "29111192\n",
+    "input" : "4\n0 1\n1 3\n1 1\n-1 -1\n",
+    "output" : "3\n",
     "index" : 0,
+    "active" : true
+  }, {
+    "input" : "20\n224 433\n987654321 987654321\n2 0\n6 4\n314159265 358979323\n0 0\n-123456789 123456789\n-1000000000 1000000000\n124 233\n9 -6\n-4 0\n9 5\n-7 3\n333333333 -333333333\n-9 -1\n7 -10\n-1 5\n324 633\n1000000000 -1000000000\n20 0\n",
+    "output" : "1124\n",
+    "index" : 1,
     "active" : true
   } ],
   "location" : "src/solutions",
-  "vmArgs" : "-Xmx256M",
+  "vmArgs" : "-Xmx1024M",
   "mainClass" : "Main",
-  "taskClass" : "solutions.Task",
+  "taskClass" : "solutions.CTriangle",
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
   "testClasses" : [ ],
-  "date" : "2021.10.22",
-  "contestName" : "HackerEarth - October Circuits '21",
+  "date" : "2021.10.23",
+  "contestName" : "AtCoder - AtCoder Beginner Contest 224",
   "truncate" : true,
   "inputClass" : "java.util.Scanner",
   "outputClass" : "java.io.PrintWriter",

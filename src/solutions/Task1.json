@@ -1,5 +1,5 @@
 {
-  "name" : "Task",
+  "name" : "Task1",
   "testType" : "SINGLE",
   "input" : {
     "type" : "STANDARD",
@@ -14,11 +14,20 @@
     "output" : "29111192\n",
     "index" : 0,
     "active" : true
+  }, {
+    "input" : "3\n11670384\n55555555\n66666666\n",
+    "index" : 1,
+    "active" : true
+  }, {
+    "input" : "1\n12345678",
+    "output" : "",
+    "index" : 2,
+    "active" : true
   } ],
   "location" : "src/solutions",
   "vmArgs" : "-Xmx256M",
   "mainClass" : "Main",
-  "taskClass" : "solutions.Task",
+  "taskClass" : "solutions.Task1",
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
   "testClasses" : [ ],

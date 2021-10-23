@@ -1,0 +1,41 @@
+{
+  "name" : "Gym",
+  "signature" : {
+    "name" : "calculateProfit",
+    "result" : "int",
+    "arguments" : [ "int", "int", "int" ],
+    "argumentNames" : [ "M", "N", "T" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "47", "10", "1000" ],
+    "result" : "10",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "1", "10", "1000" ],
+    "result" : "3",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "1", "10", "1" ],
+    "result" : "10",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "2", "10", "100" ],
+    "result" : "5",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "15", "100", "47" ],
+    "result" : "82",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2021.10.23",
+  "contestName" : "TopCoder SRM #817",
+  "testClasses" : [ ],
+  "fqn" : "solutions.Gym",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

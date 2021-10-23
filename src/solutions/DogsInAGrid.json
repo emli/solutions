@@ -1,0 +1,31 @@
+{
+  "name" : "DogsInAGrid",
+  "signature" : {
+    "name" : "construct",
+    "result" : "String[]",
+    "arguments" : [ "int" ],
+    "argumentNames" : [ "N" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "4" ],
+    "result" : "DGODDфOOGOGфGOGDD",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "2" ],
+    "result" : "OOOOOфOODOOфODOGOфOOGOOфOOOOO",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "7" ],
+    "result" : "DOGDOGDOGDOGDOGODOG",
+    "index" : 2,
+    "active" : true
+  } ],
+  "date" : "2021.10.23",
+  "contestName" : "Single Round Match 817",
+  "testClasses" : [ ],
+  "fqn" : "solutions.DogsInAGrid",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

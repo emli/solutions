@@ -1,3 +1,2 @@
-41 src/solutions/Chef and Magical Steps.json
-1
+22 src/solutions/Gym.json
 0

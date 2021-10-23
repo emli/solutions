@@ -1,6 +1,6 @@
 {
   "name" : "Task",
-  "testType" : "MULTI_NUMBER",
+  "testType" : "SINGLE",
   "input" : {
     "type" : "STANDARD",
     "fileName" : "input.txt"
@@ -10,8 +10,8 @@
     "fileName" : "output.txt"
   },
   "tests" : [ {
-    "input" : "2\n21082000\n21082000\n",
-    "output" : "29111192\n29111192\n",
+    "input" : "1\n21082000\n",
+    "output" : "29111192\n",
     "index" : 0,
     "active" : true
   } ],
@@ -22,7 +22,7 @@
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
   "testClasses" : [ ],
-  "date" : "2021.10.16",
+  "date" : "2021.10.22",
   "contestName" : "HackerEarth - October Circuits '21",
   "truncate" : true,
   "inputClass" : "java.util.Scanner",

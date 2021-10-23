@@ -1,6 +1,6 @@
 {
-  "name" : "Task",
-  "testType" : "SINGLE",
+  "name" : "Min Max LCM",
+  "testType" : "MULTI_NUMBER",
   "input" : {
     "type" : "STANDARD",
     "fileName" : "input.txt"
@@ -10,20 +10,20 @@
     "fileName" : "output.txt"
   },
   "tests" : [ {
-    "input" : "1\n21082000\n",
-    "output" : "29111192\n",
+    "input" : "2\n4 3\n2 3\n",
+    "output" : "8 132\n4 30\n",
     "index" : 0,
     "active" : true
   } ],
   "location" : "src/solutions",
   "vmArgs" : "-Xmx256M",
   "mainClass" : "Main",
-  "taskClass" : "solutions.Task",
+  "taskClass" : "solutions.MinMaxLCM",
   "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
   "checkerParameters" : "",
   "testClasses" : [ ],
-  "date" : "2021.10.22",
-  "contestName" : "HackerEarth - October Circuits '21",
+  "date" : "2021.10.23",
+  "contestName" : "CodeChef - SnackDown 2021 - Online Round 1A",
   "truncate" : true,
   "inputClass" : "java.util.Scanner",
   "outputClass" : "java.io.PrintWriter",
