@@ -1,0 +1,34 @@
+{
+  "name" : "Average Flex",
+  "testType" : "SINGLE",
+  "input" : {
+    "type" : "STANDARD",
+    "fileName" : "input.txt"
+  },
+  "output" : {
+    "type" : "STANDARD",
+    "fileName" : "output.txt"
+  },
+  "tests" : [ {
+    "input" : "3\n3\n100 100 100\n3\n2 1 3\n4\n30 1 30 30\n",
+    "output" : "3\n2\n3\n",
+    "index" : 0,
+    "active" : true
+  } ],
+  "location" : "src/solutions",
+  "vmArgs" : "-Xmx256M",
+  "mainClass" : "Main",
+  "taskClass" : "solutions.AverageFlex",
+  "checkerClass" : "net.egork.chelper.checkers.TokenChecker",
+  "checkerParameters" : "",
+  "testClasses" : [ ],
+  "date" : "2021.10.24",
+  "contestName" : "CodeChef - October Cook-Off 2021 Division 3",
+  "truncate" : true,
+  "inputClass" : "java.util.Scanner",
+  "outputClass" : "java.io.PrintWriter",
+  "includeLocale" : false,
+  "failOnOverflow" : false,
+  "interactive" : false,
+  "interactor" : "net.egork.chelper.tester.Interactor"
+}
