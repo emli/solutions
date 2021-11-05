@@ -1,0 +1,36 @@
+{
+  "name" : "GlobalWarmingCheck",
+  "signature" : {
+    "name" : "solve",
+    "result" : "int[]",
+    "arguments" : [ "int", "int", "int" ],
+    "argumentNames" : [ "N", "M", "Y" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "12", "20", "1" ],
+    "result" : "8 4",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "12", "20", "4" ],
+    "result" : "6 2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "12", "1", "3" ],
+    "result" : "0 9",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "57000", "997", "23" ],
+    "result" : "984 56322",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2021.11.05",
+  "contestName" : "Single Round Match 818",
+  "testClasses" : [ ],
+  "fqn" : "solutions.GlobalWarmingCheck",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

@@ -1,0 +1,56 @@
+{
+  "name" : "EqualPiles",
+  "signature" : {
+    "name" : "equalize",
+    "result" : "int",
+    "arguments" : [ "int", "int", "int" ],
+    "argumentNames" : [ "N", "M", "T" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "10", "12345678", "0" ],
+    "result" : "1",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "1", "0" ],
+    "result" : "10",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "12345678", "3" ],
+    "result" : "4",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "10", "10", "4" ],
+    "result" : "6",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "100000", "7", "0" ],
+    "result" : "28572",
+    "index" : 4,
+    "active" : true
+  }, {
+    "arguments" : [ "100000", "7", "1" ],
+    "result" : "28573",
+    "index" : 5,
+    "active" : true
+  }, {
+    "arguments" : [ "100000", "7", "98765" ],
+    "result" : "100000",
+    "index" : 6,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "5", "5" ],
+    "result" : "5",
+    "index" : 7,
+    "active" : true
+  } ],
+  "date" : "2021.11.05",
+  "contestName" : "Single Round Match 818",
+  "testClasses" : [ ],
+  "fqn" : "solutions.EqualPiles",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}
