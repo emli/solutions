@@ -27,8 +27,8 @@
     "index" : 3,
     "active" : true
   } ],
-  "date" : "2021.11.05",
-  "contestName" : "Single Round Match 818",
+  "date" : "2021.11.27",
+  "contestName" : "TopCoder SRM #818",
   "testClasses" : [ ],
   "fqn" : "solutions.GlobalWarmingCheck",
   "failOnOverflow" : false,

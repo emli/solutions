@@ -1,0 +1,36 @@
+{
+  "name" : "CheckbookRegister",
+  "signature" : {
+    "name" : "updateBalance",
+    "result" : "int",
+    "arguments" : [ "int", "int", "int" ],
+    "argumentNames" : [ "startingBalance", "debits", "checks" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "1000", "100", "200" ],
+    "result" : "700",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "500", "210", "290" ],
+    "result" : "0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "800", "0", "0" ],
+    "result" : "800",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "500", "300", "450" ],
+    "result" : "-250",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2021.11.27",
+  "contestName" : "Rookie SRM 7",
+  "testClasses" : [ ],
+  "fqn" : "solutions.CheckbookRegister",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

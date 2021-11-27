@@ -1,0 +1,41 @@
+{
+  "name" : "PackageSizes",
+  "signature" : {
+    "name" : "getMinimum",
+    "result" : "int",
+    "arguments" : [ "int[]", "int" ],
+    "argumentNames" : [ "sizes", "total" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "2 3", "6" ],
+    "result" : "2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "6 9 20", "8" ],
+    "result" : "-1",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "2 5 12", "7" ],
+    "result" : "2",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "2 5 12", "0" ],
+    "result" : "0",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "3 2 7 3", "10" ],
+    "result" : "2",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2021.11.27",
+  "contestName" : "Rookie SRM 7",
+  "testClasses" : [ ],
+  "fqn" : "solutions.PackageSizes",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

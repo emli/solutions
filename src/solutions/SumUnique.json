@@ -1,0 +1,36 @@
+{
+  "name" : "SumUnique",
+  "signature" : {
+    "name" : "getSum",
+    "result" : "int",
+    "arguments" : [ "int[]" ],
+    "argumentNames" : [ "values" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "1 2 3 4 5" ],
+    "result" : "15",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "1 2 3 4 3" ],
+    "result" : "10",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "1 1 1 1 1 1 1 1 1" ],
+    "result" : "1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "18 22 9 1 7 18 13 49 13 9 49 49 7" ],
+    "result" : "119",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2021.11.27",
+  "contestName" : "Rookie SRM 7",
+  "testClasses" : [ ],
+  "fqn" : "solutions.SumUnique",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

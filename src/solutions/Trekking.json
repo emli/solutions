@@ -1,0 +1,41 @@
+{
+  "name" : "Trekking",
+  "signature" : {
+    "name" : "findCamps",
+    "result" : "int",
+    "arguments" : [ "String", "String[]" ],
+    "argumentNames" : [ "trail", "plans" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "^^....^^^...", "CwwCwwCwwCwwфwwwCwCwwwCwwфwwwwCwwwwCww" ],
+    "result" : "2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "^^^^", "wwwwфwwwC" ],
+    "result" : "0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "^^.^^^^", "wwCwwwCфwwwCwwwфwCwwwCw" ],
+    "result" : "-1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "^^^^....^.^.^.", "wwwwCwwwwCwCwCфwwwwCwwCwCwwwCфwwwCwwwCwwwCwwфwwwwwCwwwCwwwC" ],
+    "result" : "3",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "..............", "CwCwCwCwCwCwCwфCwwCwwCwwCwwCw" ],
+    "result" : "5",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2021.11.27",
+  "contestName" : "TopCoder SRM #345",
+  "testClasses" : [ ],
+  "fqn" : "solutions.Trekking",
+  "failOnOverflow" : false,
+  "memoryLimit" : "64M"
+}
