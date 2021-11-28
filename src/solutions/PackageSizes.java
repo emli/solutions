@@ -5,37 +5,35 @@ import java.util.Arrays;
 import static java.lang.Math.min;
 
 public class PackageSizes {
-    int go(int[] sizes, int total,int pos,int dp[][]){
-        if (dp[total][pos] != -1){
-            return dp[total][pos];
+    int go(int[] sizes, int total,int dp[]){
+        if (dp[total] != -1){
+            return dp[total];
         }
-        if (pos == sizes.length){
-            if (total == 0) {
-                return 0;
-            }
-            return Integer.MAX_VALUE / 2;
+        if (total == 0){
+            return 0;
         }
 
         int ans = Integer.MAX_VALUE / 2;
 
+        boolean ok = false;
         for (int size : sizes) {
-            if (total - size >= 0)
-                ans = min(ans, go(sizes, total - size, pos + 1,dp) + 1);
-            ans = min(ans, go(sizes, total, pos + 1,dp));
-
+            if (total - size >= 0) {
+                ans = min(ans, go(sizes, total - size, dp) + 1);
+                ok = true;
+            }
         }
-        return dp[total][pos] = ans;
+        if (!ok) return dp[total] = Integer.MAX_VALUE / 2;
+        return dp[total] = ans;
     }
     public int getMinimum(int[] sizes, int total) {
 
-        int dp[][] = new int[total + 1][sizes.length + 1];
-        for (int[] row: dp)
-            Arrays.fill(row, -1);
+        int[] dp = new int[total + 1];
+        Arrays.fill(dp, -1);
 
-        int ans = go(sizes,total,0,dp);
+        int ans = go(sizes,total,dp);
         if (ans == Integer.MAX_VALUE / 2){
             return -1;
         }
-        return go(sizes,total,0,dp);
+        return ans;
     }
 }

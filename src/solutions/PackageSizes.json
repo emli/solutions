@@ -32,8 +32,8 @@
     "index" : 4,
     "active" : true
   } ],
-  "date" : "2021.11.27",
-  "contestName" : "Rookie SRM 7",
+  "date" : "2021.11.28",
+  "contestName" : "Rookie SRM 7 DIV 1",
   "testClasses" : [ ],
   "fqn" : "solutions.PackageSizes",
   "failOnOverflow" : false,
