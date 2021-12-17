@@ -1,0 +1,41 @@
+{
+  "name" : "EquateNumbers",
+  "signature" : {
+    "name" : "canMakeEqual",
+    "result" : "String",
+    "arguments" : [ "int[]" ],
+    "argumentNames" : [ "A" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "2 4" ],
+    "result" : "yes",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "3 6 7" ],
+    "result" : "no",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "516489004 351371688 811236122 359319772" ],
+    "result" : "yes",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "774790715 541447280 142096365 445121785 583653195 71374815 798454490 409670625 942953335 8997395" ],
+    "result" : "yes",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "1 1 1" ],
+    "result" : "yes",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2021.12.17",
+  "contestName" : "Rookie SRM 8",
+  "testClasses" : [ ],
+  "fqn" : "solutions.EquateNumbers",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

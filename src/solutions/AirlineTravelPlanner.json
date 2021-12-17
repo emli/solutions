@@ -1,0 +1,36 @@
+{
+  "name" : "AirlineTravelPlanner",
+  "signature" : {
+    "name" : "shortestDistance",
+    "result" : "int",
+    "arguments" : [ "int", "int", "String[]" ],
+    "argumentNames" : [ "start", "end", "dist" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "0", "1", "03ф20" ],
+    "result" : "3",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "0", "2", "015ф201ф320" ],
+    "result" : "2",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "2", "0", "015ф201ф320" ],
+    "result" : "3",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "0", "2", "010ф100ф320" ],
+    "result" : "-1",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2021.12.17",
+  "contestName" : "Rookie SRM 8",
+  "testClasses" : [ ],
+  "fqn" : "solutions.AirlineTravelPlanner",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}
