@@ -1,2 +1,4 @@
-39 src/solutions/AirlineTravelPlanner.json
-0
+32 src/solutions/OneBattleship.json
+2
+1
+2

@@ -1,0 +1,41 @@
+{
+  "name" : "ConnectTheWorld",
+  "signature" : {
+    "name" : "connect",
+    "result" : "String[]",
+    "arguments" : [ "String[]", "String[]", "String[]" ],
+    "argumentNames" : [ "terminalA", "terminalB", "isolated" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "ParisфParis", "LondonфNYC", "Dhaka" ],
+    "result" : "LondonфDhaka",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "TokyoфPrague", "SydneyфBern", "" ],
+    "result" : "",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "TokyoфPragueфBern", "SydneyфBernфVienna", "" ],
+    "result" : "TokyoфPrague",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "Madrid", "Porto", "BogotaфLimaфKigaliфOttawaфManila" ],
+    "result" : "",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "BRNOфBrno", "Brnoфbrno", "brNOфbRNo" ],
+    "result" : "BRNOфbRNoфbrNOфbrno",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2022.01.09",
+  "contestName" : "Single Round Match 821",
+  "testClasses" : [ ],
+  "fqn" : "solutions.ConnectTheWorld",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

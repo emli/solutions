@@ -27,8 +27,8 @@
     "index" : 3,
     "active" : true
   } ],
-  "date" : "2021.12.17",
-  "contestName" : "Rookie SRM 8",
+  "date" : "2022.01.08",
+  "contestName" : "Rookie SRM 8 DIV 1",
   "testClasses" : [ ],
   "fqn" : "solutions.WorkingOvertime",
   "failOnOverflow" : false,

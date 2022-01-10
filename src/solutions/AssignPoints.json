@@ -1,0 +1,41 @@
+{
+  "name" : "AssignPoints",
+  "signature" : {
+    "name" : "assign",
+    "result" : "int[]",
+    "arguments" : [ "int", "int[]" ],
+    "argumentNames" : [ "N", "results" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "5", "12 20 47 15 32" ],
+    "result" : "5 3 1 4 2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "4", "-1 -1 -1 -1" ],
+    "result" : "0 0 0 0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "-1 14 -1 -1 17" ],
+    "result" : "0 5 0 0 4",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "6", "14 14 17 14 17 17" ],
+    "result" : "6 6 3 6 3 3",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ "5", "28 12 -1 9 12" ],
+    "result" : "2 4 0 5 4",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2022.01.08",
+  "contestName" : "Single Round Match 821",
+  "testClasses" : [ ],
+  "fqn" : "solutions.AssignPoints",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

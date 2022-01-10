@@ -1,0 +1,36 @@
+{
+  "name" : "OneBattleship",
+  "signature" : {
+    "name" : "hit",
+    "result" : "String[]",
+    "arguments" : [ "String[]" ],
+    "argumentNames" : [ "grid" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "WW.WWфWW.WWф.....фWW.WWфWW.WW" ],
+    "result" : "WW.WWфWW.WWф..*..фWW.WWфWW.WW",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ ".W......." ],
+    "result" : ".W..*.*..",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "W.W.W.W.ф.W.W.W.WфW.W.W.W.ф.W.W.W.WфW.W.W.W.ф...W.W.W" ],
+    "result" : "W.W.W.W.ф.W.W.W.WфW.W.W.W.ф.W.W.W.WфW*W.W.W.ф***W.W.W",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "...ф.W.ф..." ],
+    "result" : "..*ф.W.ф*..",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2022.01.10",
+  "contestName" : "TopCoder SRM #821",
+  "testClasses" : [ ],
+  "fqn" : "solutions.OneBattleship",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}
