@@ -1,4 +1,2 @@
-32 src/solutions/OneBattleship.json
-2
-1
-2
+36 src/solutions/HopscotchCounting.json
+0

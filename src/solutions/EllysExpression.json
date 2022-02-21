@@ -1,0 +1,36 @@
+{
+  "name" : "EllysExpression",
+  "signature" : {
+    "name" : "getMax",
+    "result" : "int",
+    "arguments" : [ "int[]", "int", "int" ],
+    "argumentNames" : [ "numbers", "numPluses", "numMinuses" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "-6 11 -13 17 5", "1", "3" ],
+    "result" : "42",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "666", "0", "0" ],
+    "result" : "666",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "100 200", "0", "1" ],
+    "result" : "100",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "466 103 -687 350 446 344 777 889 650 172 -716 -608 -191 -731 168 871 410 703 68 270 598 -446 907 861 -92 387 182 -41 173 183 369 533 522 746 300 24 924 488 631 539 636 936 906 -337 737 470 556 148", "6", "41" ],
+    "result" : "-3006",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2022.01.22",
+  "contestName" : "Rookie SRM 9",
+  "testClasses" : [ ],
+  "fqn" : "solutions.EllysExpression",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

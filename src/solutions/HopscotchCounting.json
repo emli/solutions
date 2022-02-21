@@ -1,0 +1,36 @@
+{
+  "name" : "HopscotchCounting",
+  "signature" : {
+    "name" : "count",
+    "result" : "int",
+    "arguments" : [ "int" ],
+    "argumentNames" : [ "N" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "2" ],
+    "result" : "2",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "4" ],
+    "result" : "4",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "5" ],
+    "result" : "6",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "70" ],
+    "result" : "9736691",
+    "index" : 3,
+    "active" : true
+  } ],
+  "date" : "2022.02.19",
+  "contestName" : "Single Round Match 824",
+  "testClasses" : [ ],
+  "fqn" : "solutions.HopscotchCounting",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

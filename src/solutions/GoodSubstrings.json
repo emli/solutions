@@ -1,0 +1,41 @@
+{
+  "name" : "GoodSubstrings",
+  "signature" : {
+    "name" : "maxGoodSubstrings",
+    "result" : "int",
+    "arguments" : [ "String" ],
+    "argumentNames" : [ "s" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "aab" ],
+    "result" : "4",
+    "index" : 0,
+    "active" : false
+  }, {
+    "arguments" : [ "a." ],
+    "result" : "3",
+    "index" : 1,
+    "active" : false
+  }, {
+    "arguments" : [ "enjoy..the..problem" ],
+    "result" : "25",
+    "index" : 2,
+    "active" : false
+  }, {
+    "arguments" : [ "topcoder.is.quite...good..imho...." ],
+    "result" : "56",
+    "index" : 3,
+    "active" : false
+  }, {
+    "arguments" : [ ".acb.a.cbcac..b.b..bb.caaacbac.abcab..bbababcb.aa." ],
+    "result" : "119",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2022.01.22",
+  "contestName" : "Rookie SRM 9",
+  "testClasses" : [ ],
+  "fqn" : "solutions.GoodSubstrings",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

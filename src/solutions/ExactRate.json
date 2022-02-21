@@ -1,0 +1,31 @@
+{
+  "name" : "ExactRate",
+  "signature" : {
+    "name" : "getLongest",
+    "result" : "int[]",
+    "arguments" : [ "int", "int", "int", "int", "int" ],
+    "argumentNames" : [ "N", "seed", "threshold", "S", "F" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "12", "47", "1012345678", "1", "2" ],
+    "result" : "0 6",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "12", "47", "1012345678", "2", "1" ],
+    "result" : "2 8",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "12", "47", "1012345678", "7", "11" ],
+    "result" : "0 0",
+    "index" : 2,
+    "active" : true
+  } ],
+  "date" : "2022.02.19",
+  "contestName" : "Single Round Match 824",
+  "testClasses" : [ ],
+  "fqn" : "solutions.ExactRate",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

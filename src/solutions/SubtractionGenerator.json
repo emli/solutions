@@ -1,0 +1,31 @@
+{
+  "name" : "SubtractionGenerator",
+  "signature" : {
+    "name" : "generate",
+    "result" : "int[]",
+    "arguments" : [ "int" ],
+    "argumentNames" : [ "result" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "47" ],
+    "result" : "123 76",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "853" ],
+    "result" : "1234 381",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "95" ],
+    "result" : "190 95",
+    "index" : 2,
+    "active" : true
+  } ],
+  "date" : "2022.02.19",
+  "contestName" : "Single Round Match 824",
+  "testClasses" : [ ],
+  "fqn" : "solutions.SubtractionGenerator",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}
