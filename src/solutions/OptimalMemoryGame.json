@@ -1,0 +1,41 @@
+{
+  "name" : "OptimalMemoryGame",
+  "signature" : {
+    "name" : "findPairs",
+    "result" : "int",
+    "arguments" : [ "String" ],
+    "argumentNames" : [ "known" ]
+  },
+  "tests" : [ {
+    "arguments" : [ "AEIOUIAEUO" ],
+    "result" : "5",
+    "index" : 0,
+    "active" : true
+  }, {
+    "arguments" : [ "----------" ],
+    "result" : "0",
+    "index" : 1,
+    "active" : true
+  }, {
+    "arguments" : [ "--------A----E-----IAO----U---" ],
+    "result" : "1",
+    "index" : 2,
+    "active" : true
+  }, {
+    "arguments" : [ "-X" ],
+    "result" : "1",
+    "index" : 3,
+    "active" : true
+  }, {
+    "arguments" : [ ".XAA" ],
+    "result" : "2",
+    "index" : 4,
+    "active" : true
+  } ],
+  "date" : "2022.03.09",
+  "contestName" : "Single Round Match 825",
+  "testClasses" : [ ],
+  "fqn" : "solutions.OptimalMemoryGame",
+  "failOnOverflow" : false,
+  "memoryLimit" : "256M"
+}

@@ -1,2 +1,5 @@
-36 src/solutions/HopscotchCounting.json
+34 src/solutions/ContestTraining.json
+3
 0
+1
+2
